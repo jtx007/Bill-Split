@@ -16,10 +16,10 @@ const Invoice = (props) => {
                     With a party of {props.numberOfPartyMembers}
                 </div>
                 <div className="ui header">
-                    {props.taxPercent ? `Tax {props.taxPercent}%` : null}
+                    {props.taxPercent ? `Tax ${props.taxPercent}%` : null}
                 </div>
                 <div className="ui header">
-                    {props.tipPercent ? `Tip {props.tipPercent}%`: null}
+                    {props.tipPercent ? `Tip ${props.tipPercent}%`: null}
                 </div>
                 <div className="ui large header">
                     Total per person ${props.totalPerPerson}
