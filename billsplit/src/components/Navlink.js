@@ -6,7 +6,7 @@ const Navlink = props => (
     {...props}
     getProps={({ isCurrent }) => {
       return {
-        className: isCurrent ? "ui active link large item" : "ui link large item"
+        className: isCurrent ? "ui navlink active link green large item" : "ui navlink link large item"
       }
     }}
   />

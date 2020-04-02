@@ -1,10 +1,27 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-    height: 100vh;
+  height: 100vh;
+  padding: 10px;
 }
 
 body {
-    height: 100vh;
+  height: 100vh;
+}
+
+.splash-page-hero {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  padding: 50px;
+}
+
+.navlink:hover {
+  background-color: #1fba45 !important;
+}
+
+.billsplitlogo {
+  margin-bottom: 11px !important;
+  margin-right: 10px !important;
 }
