@@ -11,6 +11,7 @@ body {
 }
 
 .splash-page-hero {
+    border: 1px solid rgba(0, 0, 0, 0.335);
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
@@ -22,6 +23,6 @@ body {
 }
 
 .billsplitlogo {
-  margin-bottom: 11px !important;
+  margin-bottom: 15px !important;
   margin-right: 10px !important;
 }
